@@ -126,9 +126,3 @@ This project is for technical review and not intended for production use.
 
 
 ---
-
-### ✅ Final Step
-
-Make sure to save your screenshot as `assets/screenshot.png` in the repo, or update the path in the `README.md` accordingly.
-
-Let me know if you want help generating a dark mode version or adding animations/gifs to the README!
