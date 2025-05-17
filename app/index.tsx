@@ -1,8 +1,9 @@
-import { Plus } from 'lucide-react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
 import React, { useState } from 'react';
 import { Keyboard, Pressable, ScrollView, Text, TouchableWithoutFeedback, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import NoteItem from './components/NoteItem';
+
 
 interface Note {
   id: string;
@@ -121,7 +122,7 @@ export default function HomeScreen() {
   return (
     <TouchableWithoutFeedback onPress={handleTapOutside}>
       <SafeAreaView className="flex-1">
-        <View className="lg:rounded-lg w-full lg:h-[80%] h-full bg-white max-w-3xl mx-auto my-auto relative">
+        <View className="shadow-lg rounded-lg w-full lg:h-[80%] h-full bg-white max-w-3xl mx-auto my-auto relative">
           <View className="p-4 h-full">
             <Text className="text-start text-2xl font-bold mb-4">My Notes</Text>
 
@@ -156,7 +157,7 @@ export default function HomeScreen() {
             onPress={addNewNote} 
             className="flex flex-row w-full hover:bg-gray-200 absolute bottom-0 bg-gray-100 flex justify-center items-center py-3"
           >
-            <Plus className="text-white bg-blue-500 rounded-full p-1" />
+            <Icon name="plus-circle" size={24} color="#3B82F6" />
             <Text className="text-blue-500 font-bold text-lg ml-2">
               Add Note
             </Text>
