@@ -111,6 +111,3 @@ This app was created as part of a front-end tech screen to demonstrate:
 ## 📄 License
 
 This project is for technical review and not intended for production use.
-
-
----
