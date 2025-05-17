@@ -1,50 +1,134 @@
-# Welcome to your Expo app 👋
+# 📝 React Native Task Manager App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A lightweight, mobile-friendly task/note manager built with React Native and Expo. This app keeps things simple — add, complete, and delete notes with clean visuals and smooth feedback.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Getting Started
 
+To run the app locally:
+
+1. **Clone the repository**
    ```bash
-   npm install
+   git clone git@github.com:Theskrtnerd/expo-todo-app.git
+   cd expo-todo-app
    ```
 
-2. Start the app
+2. **Install dependencies**
 
    ```bash
-   npx expo start
+   pnpm install
    ```
 
-In the output, you'll find options to open the app in a
+3. **Start the development server**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   ```bash
+   pnpm start
+   ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+You’ll be prompted to open the app in:
 
-## Get a fresh project
+* [Expo Go](https://expo.dev/go) on your mobile device
+* An Android emulator
+* An iOS simulator
+* A development build (for full native support)
 
-When you're ready, run:
+> 💡 You can start editing inside the `app/` directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction/).
+
+---
+
+## 📱 App Overview
+
+This app offers a focused note/task-taking experience with a clean UI and intuitive interactions.
+
+### 🗂 Main Features
+
+* **View Notes**
+  All your notes are listed in a scrollable list under **"My Notes"**. Each item shows:
+
+  * A **title** in bold
+  * A **subtitle** in lighter text
+
+* **Mark as Complete**
+  Tap the **circle icon** on the left of any note to toggle its completion state. Completed items can appear visually distinct (e.g., faded or checked).
+
+* **Delete Notes**
+  Tap the **trash icon** on the right to remove a note instantly.
+
+* **Add Notes**
+  Use the **“+ Add Note”** bar at the bottom of the screen to add new entries. A modal or inline form allows you to type the title and subtitle. The new note is then added to the list.
+
+---
+
+## ✅ Features Summary
+
+* Add new notes with a title and subtitle
+* Toggle task completion with one tap
+* Delete tasks with a trash icon
+* View all tasks in a clean, scrollable list
+* Responsive UI with clear visual feedback
+
+---
+
+## 🧩 Tech Stack
+
+* **[Expo](https://expo.dev/)** – for rapid mobile development
+* **[React Native](https://reactnative.dev/)** – the foundation of the app
+* **[NativeWind](https://www.nativewind.dev/)** – Tailwind-style utility classes for consistent styling
+* **[React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)** – performant animations and transitions
+* **[Lucide React Native](https://github.com/lucide-icons/lucide)** – elegant, customizable icons
+
+---
+
+## 🧪 Reset the Project (Optional)
+
+To reset to a blank template:
 
 ```bash
-npm run reset-project
+pnpm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This will move the current app code to `app-example/` and leave a fresh `app/` directory for development.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📁 Project Structure
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+* `app/`: Contains screens and components
+* `components/`: Reusable UI elements
+* Local state only — no Redux or external state management
+* Uses `useState`, `useEffect`, and props for logic
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 📝 Notes
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This app was created as part of a front-end tech screen to demonstrate:
+
+* Component-driven development
+* Local state and prop usage
+* Clean UI/UX design
+* Mobile-first interaction design with Expo
+
+---
+
+## 📸 Screenshot
+
+> Main UI – with completed and incomplete notes, plus the Add Note CTA at the bottom
+
+![App Screenshot](./assets/screenshot.png)
+
+---
+
+## 📄 License
+
+This project is for technical review and not intended for production use.
+
+
+---
+
+### ✅ Final Step
+
+Make sure to save your screenshot as `assets/screenshot.png` in the repo, or update the path in the `README.md` accordingly.
+
+Let me know if you want help generating a dark mode version or adding animations/gifs to the README!
