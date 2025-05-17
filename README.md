@@ -116,7 +116,7 @@ This app was created as part of a front-end tech screen to demonstrate:
 
 > Main UI – with completed and incomplete notes, plus the Add Note CTA at the bottom
 
-![App Screenshot](./assets/screenshot.png)
+<img src="./assets/screenshot.png" alt="App Screenshot" width="300" />
 
 ---
 
