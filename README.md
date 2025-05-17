@@ -2,6 +2,8 @@
 
 A lightweight, mobile-friendly task/note manager built with React Native and Expo. This app keeps things simple — add, complete, and delete notes with clean visuals and smooth feedback.
 
+Inspired by Apple Notes, this application has some clean and modern UI, which is easy for users to understand and interact with.
+
 ---
 
 ## 🚀 Getting Started
