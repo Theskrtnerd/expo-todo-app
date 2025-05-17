@@ -80,18 +80,6 @@ This app offers a focused note/task-taking experience with a clean UI and intuit
 
 ---
 
-## 🧪 Reset the Project (Optional)
-
-To reset to a blank template:
-
-```bash
-pnpm run reset-project
-```
-
-This will move the current app code to `app-example/` and leave a fresh `app/` directory for development.
-
----
-
 ## 📁 Project Structure
 
 * `app/`: Contains screens and components
